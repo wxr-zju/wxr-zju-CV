@@ -77,10 +77,10 @@
 
 
 \titleformat{\section}         % 定制 \section 命令 
-{\large\bfseries\raggedright} % 将 section 标题设置为大号、粗体且左对齐
-{}{0em}                      % 可用于为所有 section 添加前缀（如“章节...”）
-{}                           % 可用于在标题前插入代码
-[{\color{CVBlue}\titlerule}]  % 在标题后插入一条横线
+{\large\bfseries\raggedright}  % 将 section 标题设置为大号、粗体且左对齐
+{}{0em}                        % 可用于为所有 section 添加前缀（如“章节...”）
+{}                             % 可用于在标题前插入代码
+[{\color{CVBlue}\titlerule}]   % 在标题后插入一条横线
 \titlespacing*{\section}{0cm}{*1.6}{*1.2}
 
 
@@ -103,8 +103,8 @@
 %\centerline{\normalsize{\faGithubSquare\ \href{https://github.com/maksymilan}{https://github.com/maksymilan} \quad \faRssSquare\ \href{https://maksymilan.github.io/}{https://maksymilan.github.io}}} 
     
 \section{\makebox[\widthof{\faGraduationCap}][c]{\color{CVBlue}\faGraduationCap}\ 教育背景}    
-\textbf{浙江省杭州高级中学} \hfill 2020.9 -- 2023.9\\[0.3em] % 标题和正文间加一点距离
-\textbf{浙江大学} \hfill 2023.9 -- 至今\\[0.3em] % 标题和正文间加一点距离
+\textbf{浙江省杭州高级中学} \hfill 2020.09 -- 2023.06\\[0.3em] % 标题和正文间加一点距离
+\textbf{浙江大学} \hfill 2023.09 -- 至今\\[0.3em] % 标题和正文间加一点距离
 材料科学与工程（卓越人才培养班）\quad 大三
 
 \begin{itemize}[nosep]
@@ -113,27 +113,20 @@
     \item \textbf{核心专业课程：}《材料物理》95 / 5.0、《材料表征1》95 / 5.0、《材料表征2》93 / 4.8《材料表征3》96 / 5.0\\《材料性能1》96 / 5.0、《材料科学基础1》93 / 4.8、《材料工艺学1》96 / 5.0
 \end{itemize}
 
-%\section{\makebox[\widthof{\faUsers}][c]{\color{CVBlue}\faUsers}\ 项目经历}
 \section{\makebox[\widthof{\faCogs}][c]{\color{CVBlue}\faCogs}\ 项目经历}
 % --- 第一个项目 ---
 % 将标题行末尾的 \\ 替换为 \titlebreak 命令
 \textbf{1、国家级大学生创新训练项目}\\
-\textbf{SAM预组装对刮涂法制备钙钛矿太阳能电池的影响机制研究}\quad 导师：薛晶晶教授 \hfill 2025.03 -- 2026.05 \titlebreak
+\textbf{SAM预组装对刮涂法制备钙钛矿太阳能电池的影响机制研究}\qquad 导师：薛晶晶 教授 \hfill 2025.03 -- 2026.05 \titlebreak
 项目简介：通过Py3-SiOx预组装复合体系\textbf{构建体相纳米异质界面}，\textbf{突破}传统自组装小分子的\textbf{有序堆积模式}，大幅增加化学界面以实现SAM层\textbf{牢固锚定}，有效改善纯SAM\textbf{刮涂工艺效率低下}的短板，为高效率、高稳定性钙钛矿太阳能电池的大面积、规模化生产提供重要借鉴。
 
-% 在 itemize 的选项中，使用 topsep=\intraProjectListTopSep 来控制上边距
-%\begin{itemize}[nosep, topsep=\intraProjectListTopSep]
-%    \item \textbf{数据与后端}：运用 \textbf{Go} 语言及 \textbf{GORM} 框架，实现对全站“烂坑”帖的7x24小时全天候\textbf{抓取}与\textbf{入库}(MySQL)。
-%    \item \textbf{可视化前端}：采用原生 \textbf{HTML/CSS/JS} 构建了“烂坑”实时监控\textbf{作战大屏}。实现了坑主成分分析、挖坑热力图、年度烂坑王榜单等\textbf{可视化图表}，并通过 \textbf{AJAX} 异步刷新，%确保数据洞察的实时性。
-%    \item \textbf{核心产出}：全面掌握了从\textbf{数据采集、清洗、LLM标注到可视化分析}的“反烂坑”全链路技术。
-%\end{itemize}
 
 % 使用 \projectsep 命令来分隔两个项目
 \projectsep
 
 % --- 第二个项目 ---
 \textbf{2、材料学院卓越人才培养班《创新实践》课程项目}\\
-\textbf{SAM团簇抑制机制及其对钙钛矿太阳能电池性能的调控}\quad 导师：薛晶晶教授 \hfill 2025.05 -- 至今 \titlebreak
+\textbf{SAM团簇抑制机制及其对钙钛矿太阳能电池性能的调控}\qquad 导师：薛晶晶 教授 \hfill 2025.05 -- 至今 \titlebreak
 项目简介：通过\textbf{调控}Py3-SiOx预组装复合体系中SiOx纳米颗粒的\textbf{粒径和表面配体}，实现SAM团簇的\textbf{有效抑制}，构建更为均匀致密的空穴传输层，从而提升钙钛矿太阳能电池的综合光电性能。
 %\begin{itemize}[nosep, topsep=\intraProjectListTopSep]
 %    \item \textbf{并发与调度}：后端采用 \textbf{Go} 语言，充分利用 \textbf{Goroutine} 和 \textbf{Channel} 的高并发模型，模拟\textbf{用户并发在线}，执行定时挖坑，确保挖坑行动的\textbf{隐蔽性}与\textbf{高效性}。
@@ -141,12 +134,6 @@
 %    \item \textbf{可视化GUI}：前端使用 \textbf{React} 框架构建了\textbf{后台管理的可视化面板 (Admin Panel)}。可一键下达挖坑指令、动态调整Agent的\textbf{指令}、并实时监控数据。
 %\end{itemize}
 
-%\section{\makebox[\widthof{\faCogs}][c]{\color{CVBlue}\faCogs}\ 技术栈}
-%\begin{itemize}[nosep]
-%    \item \textbf{编程语言：} \textbf{Go}, Python, C++
-%    \item \textbf{开发工具：} SSH, Git, Vim, MakeFile,LaTex
-%    \item \textbf{操作系统：} Linux
-%\end{itemize}
 
 \section{\makebox[\widthof{\faGraduationCap}][c]{\color{CVBlue}\faList}\ 获奖情况}
 \begin{itemize}
@@ -162,7 +149,7 @@
 \section{\makebox[\widthof{\faUsers}][c]{\color{CVBlue}\faInfo}\ 其他}
 \begin{itemize}[parsep=0.5ex]
     \item \textbf{外语水平：} CET-4  569, CET-6  539
-    \item \textbf{编程水平：}《C语言程序设计》93 / 4.8
+    \item \textbf{编程水平：} 掌握C语言的基础知识，具备基本的代码编写与程序设计能力，《C语言程序设计》93 / 4.8
     \item \textbf{专业软件：} 掌握 Origin、MATLAB、ImageJ 和 Materials Studio 等软件的基本操作，可开展数据分析、图像处理及材料模拟相关工作。
 \end{itemize}
 \end{document}
